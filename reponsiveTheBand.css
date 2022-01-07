@@ -1,0 +1,68 @@
+@media only screen and (max-width:739px) {
+    #nav > li {
+        display: block;
+    }
+    #header .btn-search {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #header .btn-menu  {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 48px;
+
+    }
+    #nav li a {
+        padding: 1px 24px;
+    } 
+    .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    .contact-form {
+        margin-top: 8px;
+    }
+    #footer .socola-list a {
+        padding: 0 8px;
+    }
+    .footer-text {
+        display: inline-block;
+    }
+    .footer-text a {
+        padding: 0 15px;
+    }
+    .s-mt-16 {
+        margin-top: 16px;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-info a {
+        color: #101aef;
+        opacity: 0.6;
+    }
+    .contact-info a:hover {
+        opacity: 1;
+    }
+}
+
